@@ -1,0 +1,48 @@
+body {
+	background-image: url("images/background_small.jpg");
+	background-size: 100%;
+	/*background-repeat: no-repeat;*/
+}
+
+.navbar {
+   /*background-color: transparent;
+   background: transparent;
+   border-color: transparent;*/
+   border-bottom: 2px solid #F9521D;
+   font-size: 28px;
+   
+}
+
+.navbar li {
+	padding-left: 3em;
+	font-family: 'MV Boli', serif;
+	color: #F9521D;
+}
+
+#header-image {
+	width: 100%;
+	height: 170px;
+}
+
+/*#footer-image {
+	width: 100%;
+}*/
+
+#links li {
+	display: inline;
+	padding-left: 1em;
+}
+
+#footer {
+	background-color: transparent;
+   	background: transparent;
+   	border-color: transparent;
+	border-bottom: none;
+	padding-top: 3px;
+	padding-right: 3em;
+}
+
+.active {
+	background-image: url("images/hover.png");
+	background-repeat: no-repeat;
+}
